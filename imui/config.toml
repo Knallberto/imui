@@ -1,0 +1,31 @@
+BaseUrl= "http://www.imui.org"
+theme= "hugo-theme-air"
+LanguageCode= "de-de"
+Title= "ImuI e.V."
+paginate = 5
+DisqusShortname = ""
+Copyright = "All rights reserved - 2019"
+canonifyurls = true
+
+[author]
+  name = "syui"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug"
+
+[params]
+  description = "Verein für inklusive Musikinstrumente"
+  cover = "images/screen2.png"
+  author = "syui"
+  authorlocation = ""
+  authorwebsite = "https://syui.cf/hugo-theme-air"
+  bio= "my bio"
+  logo = "images/screen2.png"
+  googleAnalyticsUserID = ""
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = ""
+  githubName = ""
+  twitterName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  mainSections = ["post"]
